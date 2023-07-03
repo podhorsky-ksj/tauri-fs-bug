@@ -1,0 +1,6 @@
+{
+    "transform": {
+	"^.+\\.svg$": "<rootDir>/src/tests/transformers/svg.js",
+        "^.+\\.tsx?$": "ts-jest"
+    }
+}
